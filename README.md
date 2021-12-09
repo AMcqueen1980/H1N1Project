@@ -4,7 +4,7 @@
 
 ## Objectives 
 
-The largest global vaccination campaign in history is currently underway. In the United States, mass vaccinations began in December 2020, and about 60% have completed their second doses as of November 2021. For fast and effective vaccination rollout, the Centers for Disease Control and Prevention (CDC) closely monitor and predict vaccination coverage across the country. In this project, to contribute to the CDC’s vaccination monitoring efforts, we develop a machine learning model to predict an individual’s vaccination uptake for the time of the pandemic as well as for regular seasonal flu using vaccination status survey data on 2009 N1H1 flu and seasonal flu.
+The largest global vaccination campaign in history is currently underway. In the United States, mass vaccinations began in December 2020, and about 60% have completed their second doses as of November 2021. For fast and effective vaccination rollout, the Centers for Disease Control and Prevention (CDC) closely monitors and predicts vaccination coverage across the country. In this project, to contribute to the CDC’s vaccination monitoring efforts, we develop a machine learning model to predict an individual’s vaccination uptake for the time of the pandemic as well as for regular seasonal flu using vaccination status survey data on 2009 N1H1 flu and seasonal flu.
 
 Our model will help the CDC to quickly assess who will be vaccinated and who will not across different socio-economic and demographic groups. Our model also includes data on a person’s knowledge, concerns, and beliefs about the vaccine and the flu; thus, our model will address major challenges for improving vaccination uptake. Finally, from our model and data analysis, we will suggest policy recommendations for which communities to target in a vaccination campaign, and how to address people’s concerns about vaccinations. Our analysis and recommendations will support CDC’s vaccination effort to combat the current pandemic and flu season. 
 
@@ -22,10 +22,36 @@ Our dataset is from [DRIVENDATA](https://www.drivendata.org/competitions/66/flu-
 •	**Health consideration factors:** High risk group, Doctor's recommendations, Health Insurance 
 
 After clearning, our data includes 35 vaccination features for XXXX individuals
+
 - Add summary stat
 
 
-## Model
+## Model and Metrics
+
+We ultimately chose to use two seperate models for our two targets. Both are Gradient Boosting Classifier models with parameters optimised via GridSearch, however they each been fit with a different model in mind. 
+
+The metrics for our final H1N1 model is:
+
+******************************
+| Metric      | Score       |
+| ----------- | ----------- |
+| Accuracy    | Number      |
+| Precision   | Number      |
+| Recall      | Number      |
+| F1          | Number      |
+| ROC-AUC     | Number      |
+
+And for our final Seasonal Flu model: 
+
+******************************
+| Metric      | Score       |
+| ----------- | ----------- |
+| Accuracy    | Number      |
+| Precision   | Number      |
+| Recall      | Number      |
+| F1          | Number      |
+| ROC-AUC     | Number      |
+
 
 ## Results
 
