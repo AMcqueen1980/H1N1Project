@@ -96,7 +96,7 @@ Although this model helps provide insights into some of the underlying factors t
 
 ## For More Information
 
-Please review our full analysis in our Jupyter Notebooks [here](https://github.com/AMcqueen1980/H1N1Project/blob/main/Final_notebook_EDA.ipynb) and [here](https://github.com/AMcqueen1980/H1N1Project/blob/main/Final_Model_Analysis.ipynb). 
+Please review our full analysis in our Jupyter Notebooks [here](https://github.com/AMcqueen1980/H1N1Project/blob/main/Final_notebook_EDA.ipynb) and [here](https://github.com/AMcqueen1980/H1N1Project/blob/main/Final_Model_Analysis.ipynb), or our [presentation](https://github.com/AMcqueen1980/H1N1Project/blob/main/PPTs.pdf). 
 
 For any additional questions, please contact [Adonis McQueen](acmcqueen1980@gmail.com), [Emiko Naomasa](emikonaomasa@gmail.com), [Julian Ward](wardjulianm@gmail.com)
 
@@ -110,6 +110,5 @@ For any additional questions, please contact [Adonis McQueen](acmcqueen1980@gmai
 ├────── Emiko                           <- Unpolished notebooks for Emiko, not critical
 ├────── Julian                          <- Unpolished notebooks for Julian, not critical
 ├── PPTs.pdf                            <- PDF version of project presentation
-├── Data                                <- Both sourced externally and generated from code
-└── Images (if any)                     <- Both sourced externally and generated from code
+└── Data                                <- Both sourced externally and generated from code 
 ```
