@@ -1,4 +1,4 @@
-# Vaccinations:How past trends can help us improve current vaccination rates
+# Vaccinations:  How past trends can help us improve current vaccination rates
 
 **Authors**: Adonis McQueen, Emiko Naomasa, Julian Ward
 
