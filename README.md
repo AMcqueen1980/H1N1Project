@@ -96,6 +96,8 @@ Although this model helps provide insights into some of the underlying factors t
 
 ## For More Information
 
+Due to the computation needed to optimize our model parameters, we created a seperate notebook to show that work, while a seperate notebook was created using the final parameters found in the first notebook.
+
 Please review our full analysis in our Jupyter Notebooks [here](https://github.com/AMcqueen1980/H1N1Project/blob/main/Final_notebook_EDA.ipynb) and [here](https://github.com/AMcqueen1980/H1N1Project/blob/main/Final_Model_Analysis.ipynb), or our [presentation](https://github.com/AMcqueen1980/H1N1Project/blob/main/PPTs.pdf). 
 
 For any additional questions, please contact [Adonis McQueen](acmcqueen1980@gmail.com), [Emiko Naomasa](emikonaomasa@gmail.com), [Julian Ward](wardjulianm@gmail.com)
