@@ -12,6 +12,8 @@ Our model will help the CDC to quickly assess who will be vaccinated and who wil
 
 It is widely reported that vaccination rates are disproportionately low among African Americans, Hispanics, and other ethnic minority groups. There are many reasons for these differences, including access to health insurance, physical access to a vaccination facility, knowledge gaps, attitudes towards vaccination, or lack of trust in health providers. Our model includes various variables representing major barriers to vaccination uptakes, including a person’s beliefs about vaccines, knowledge of influenza and vaccines, and other socioeconomic factors, and aims to provide evidence-based policy recommendations to CDC on what the major barriers to vaccination are and how to address these gaps. 
 
+**Insert Box plot here**
+
 ## Data
 
 Our dataset is from [DRIVENDATA](https://www.drivendata.org/competitions/66/flu-shot-learning/). This is a subsample of [the National 2009 H1N1 Flu Survey (NHFS)](https://www.cdc.gov/nchs/nis/data_files_h1n1.htm), which the CDC conducted from 2009 to 2010. Data cover the H1N1 and seasonal flu vaccination status of adults as well as flu-related behaviors, opinions about flu vaccine safety and effectiveness, and socioeconomic status as follows. 
@@ -52,7 +54,7 @@ And for our final Seasonal Flu model:
 | Accuracy        | .78         |
 | ROC-AUC         | .8536       |
 
-Compared to the Benchmark (Not Baseline!) model provided
+Compared to the benchmark (not Baseline!) model provided by the data source.
 
 ******************************
 | H1N1        | Score       | Seasonal    | Score       |
@@ -63,13 +65,27 @@ Compared to the Benchmark (Not Baseline!) model provided
 | Accuracy    | .83         | Accuracy    | .76         |
 | ROC-AUC     | .8278       | ROC-AUC     | .8311       |
 
+We scored minor improvements across the board compared to the benchmark model.
 
 ## Results
+
+Our model provided a number of insights, expecially in the analysis of feature importance. 
+
+**Insert Image Here**
+
+In both our models having a doctor's direct intervention was the most important factor in determining outcome. Additionally, concerns about both the efficacy of the vaccine and concerns about the danger of the illness itself loom large. On the one hand this presents an opportunity for our stakeholders to address. On the other hand, it points to where current policy is failing our communities of concern. 
+
+Additionally, it is important to note the importance that opinions about seasonal vaccinations  rank in the top ten most important features even for H1N1 vaccine uptake. This indicates that under pandemic or emergency conditions it is important to have an underlying base of trust and knowledge regarding vaccination in general. 
+
+Notably, despite the racial disparities evident in the data, these factors are not seen as highly predictive in our model *given the other factors present*. That is, many disparities in outcomes for racial minorities can be explained in the model by disparities in, e.g. access to doctors, health insurance, or information about vaccines. We can see this with a simple breakdown by race of who has recieved recommendations for the seasonal flu vaccine. Almost half of all White respondents had recieved a recommendation from their doctor, while just over a third of Black respondents had. 
 
 ## Policy Recommendations 
 
 - Target vaccination outreach to communities with certain ethnicities. 
 - Address concerns about vaccine efficacy and safety. 
+- Given the critical importance of doctor's recomendations to vaccine uptake, all efforts should be made to expand access to medical professionals in underserved communities, and measures be taken to 
+
+
 
 ## Conclusions
 
