@@ -104,11 +104,8 @@ For any additional questions, please contact [Adonis McQueen](acmcqueen1980@gmai
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── Notebook.ipynb                      <- Initial EDA and data cleaning compiled into one Jupyter notebook
-├── Notebook.ipynb                      <- Final analysis in Jupyter notebook
-├────── Adonis                          <- Unpolished notebooks for Adonis, not critical 
-├────── Emiko                           <- Unpolished notebooks for Emiko, not critical
-├────── Julian                          <- Unpolished notebooks for Julian, not critical
+├── Final_notebook_EDA.ipynb            <- Initial EDA and data cleaning compiled into one Jupyter notebook
+├── Final_Notebook_2.ipynb              <- Final analysis in Jupyter notebook
 ├── PPTs.pdf                            <- PDF version of project presentation
 └── Data                                <- Both sourced externally and generated from code 
 ```
