@@ -68,7 +68,9 @@ We scored minor improvements across the board compared to the benchmark model.
 
 Our model provided a number of insights, expecially in the analysis of feature importance. 
 
-**Insert Image Here**
+![Goodticksh1n1](https://user-images.githubusercontent.com/85522002/145588376-a1bf3b7d-9170-44bd-b491-992c898540f7.png)
+
+![Goodticksv](https://user-images.githubusercontent.com/85522002/145588385-50fc9acc-07b1-43e6-8b35-1357fd3a21ad.png)
 
 In both our models having a doctor's direct intervention was the most important factor in determining outcome. Additionally, concerns about both the efficacy of the vaccine and concerns about the danger of the illness itself loom large. On the one hand this presents an opportunity for our stakeholders to address. On the other hand, it points to where current policy is failing our communities of concern. 
 
