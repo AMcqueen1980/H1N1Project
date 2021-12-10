@@ -33,24 +33,35 @@ We ultimately chose to use two seperate models for our two targets. Both are Gra
 The metrics for our final H1N1 model is:
 
 ******************************
-| Metric      | Score       |
-| ----------- | ----------- |
-| Accuracy    | Number      |
-| Precision   | Number      |
-| Recall      | Number      |
-| F1          | Number      |
-| ROC-AUC     | Number      |
+| Got Vaccinated  | Score       |
+| -----------     | ----------- |
+| Precision       | .69         |
+| Recall          | .45         |
+| F1              | .55         |
+| Accuracy        | .84         |
+| ROC-AUC         | .8364       |
 
 And for our final Seasonal Flu model: 
 
 ******************************
-| Metric      | Score       |
-| ----------- | ----------- |
-| Accuracy    | Number      |
-| Precision   | Number      |
-| Recall      | Number      |
-| F1          | Number      |
-| ROC-AUC     | Number      |
+| Got Vaccinated  | Score       |
+| -----------     | ----------- |
+| Precision       | .77         |
+| Recall          | .75         |
+| F1              | .76         |
+| Accuracy        | .78         |
+| ROC-AUC         | .8536       |
+
+Compared to the Benchmark (Not Baseline!) model provided
+
+******************************
+| H1N1        | Score       | Seasonal    | Score       |
+| ----------- | ----------- | ----------- | ----------- |
+| Precision   | .67         | Precision   | .76         |
+| Recall      | .43         | Recall      | .71         |
+| F1          | .52         | F1          | .74         |
+| Accuracy    | .83         | Accuracy    | .76         |
+| ROC-AUC     | .8278       | ROC-AUC     | .8311       |
 
 
 ## Results
