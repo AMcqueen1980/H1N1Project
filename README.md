@@ -4,14 +4,20 @@
 
 ## Objectives 
 
-The objectives of this project are twofold. (1) Develop two prediction models to predict individual vaccination uptake’s for the seasonal flu vaccine and H1N1 flu vaccine using vaccination status survey data on the 2009 N1H1 flu and seasonal flu.
- (2) Given the developed prediction model, analyze socio-economic features strongly related to a person’s vaccination decision. 
+The objectives of this project are twofold. 
+(1) Develop two prediction models to predict individual vaccination uptake’s for the seasonal flu vaccine and H1N1 flu vaccine using vaccination status survey data on the 2009 N1H1 flu and seasonal flu.
+(2) Given the developed prediction model, analyze socio-economic features strongly related to a person’s vaccination decision. 
 
 ## Business Problems
 
 [For FY 2022, the US government has approved the most significant budget increase for the CDC in nearly two decades](https://www.cdc.gov/media/releases/2021/s0528-fiscal-year-2022.html). The budget is targeted to fund priority public health issues in the US, including improving readiness for future public health crises and reducing health disparities in racial and ethnic minority communities. 
 
 To support their policymaking, the CDC has tasked us to create a vaccination prediction model to prepare for a future pandemic crisis. The CDC also asked us to provide policy recommendations based on the model. Remarkably, they are interested in which racial and ethnic communities to target, the critical factors for their vaccination decisions, and how to address barriers. 
+
+![Finalboxseasonal](https://user-images.githubusercontent.com/85522002/145588885-62665e4a-5e53-45bb-97f9-92654f516f1f.png)
+
+![Finalboxh1n1](https://user-images.githubusercontent.com/85522002/145588890-ad1f0b02-f06d-45f2-9289-af710e99893b.png)
+
 
 ## Data
 
@@ -64,7 +70,7 @@ Compared to the benchmark (not Baseline!) model provided by the data source.
 
 We scored minor improvements across the board compared to the benchmark model.
 
-## Results
+## Feature Analysis
 
 Our model provided a number of insights, expecially in the analysis of feature importance. 
 
@@ -72,25 +78,25 @@ Our model provided a number of insights, expecially in the analysis of feature i
 
 ![Goodticksv](https://user-images.githubusercontent.com/85522002/145588385-50fc9acc-07b1-43e6-8b35-1357fd3a21ad.png)
 
-In both our models having a doctor's direct intervention was the most important factor in determining outcome. Additionally, concerns about both the efficacy of the vaccine and concerns about the danger of the illness itself loom large. On the one hand this presents an opportunity for our stakeholders to address. On the other hand, it points to where current policy is failing our communities of concern. 
+In both our models having a doctor's direct intervention was the most important factor in determining outcome.  On the one hand this presents an opportunity for our stakeholders to address. On the other hand, it points to where current policy is failing our communities of concern. 
 
-Additionally, it is important to note the importance that opinions about seasonal vaccinations  rank in the top ten most important features even for H1N1 vaccine uptake. This indicates that under pandemic or emergency conditions it is important to have an underlying base of trust and knowledge regarding vaccination in general. 
+Additionally, concerns about both the efficacy of the vaccine and concerns about the danger of the illness itself loom large. It is important to note the importance that opinions about seasonal vaccinations  rank in the top ten most important features even for H1N1 vaccine uptake. This indicates that under pandemic or emergency conditions it is important to have an underlying base of trust and knowledge regarding vaccination in general. 
 
-Notably, despite the racial disparities evident in the data, these factors are not seen as highly predictive in our model *given the other factors present*. That is, many disparities in outcomes for racial minorities can be explained in the model by disparities in, e.g. access to doctors, health insurance, or information about vaccines. We can see this with a simple breakdown by race of who has recieved recommendations for the seasonal flu vaccine. Almost half of all White respondents had recieved a recommendation from their doctor, while just over a third of Black respondents had. 
+Notably, despite the racial disparities evident in the data, these factors are not seen as highly predictive in our model *given the other factors present*. That is, many disparities in outcomes for racial minorities can be explained in the model by disparities in, e.g. access to doctors, health insurance, or information about vaccines. We can see this with a simple breakdown by race of who has recieved recommendations for the seasonal flu vaccine. Almost half of all White respondents had recieved a recommendation from their doctor, while just over a third of Black respondents had. Our data can't explain why such a disparity exists, but this will have to be corrected if our stakeholders wish to accomplish their goals. 
 
 ## Policy Recommendations 
 
-- Target vaccination outreach to communities with certain ethnicities. 
+- Target vaccination educational outreach to communities with certain ethnicities. 
 - Address concerns about vaccine efficacy and safety. 
-- Given the critical importance of doctor's recomendations to vaccine uptake, all efforts should be made to expand access to medical professionals in underserved communities, and measures be taken to 
+- Given the critical importance of doctor's recomendations to vaccine uptake, all efforts should be made to expand access to medical professionals in underserved communities, and measures be taken to build trust in those communities.
 
+## Further Investigations
 
-
-## Conclusions
+Although this model helps provide insights into some of the underlying factors that drive vaccination rates and the potencial sources of disparities among groups, it is limited in some key ways. For one, our explanitory features, like doctor's recommendation and vaccine knowledge, are downstream of other explanitory factors themselves. For instance, without additional data we are unable to disentangle why Black people recieve few recommendations from doctors regarding vaccinations. Is it cost, lack of access to doctors, or bias on the part of medical professionals themselves? Likely, it is some combination of these and other factors. Further investigation is likely needed.
 
 ## For More Information
 
-Please review our full analysis in our Jupyter Notebook (<- insert link). 
+Please review our full analysis in our Jupyter Notebooks [here] and [here]. 
 
 For any additional questions, please contact Adonis McQueen, [Emiko Naomasa](emikonaomasa@gmail.com), Julian Ward
 
@@ -98,7 +104,11 @@ For any additional questions, please contact Adonis McQueen, [Emiko Naomasa](emi
 
 ```
 ├── README.md                           <- The top-level README for reviewers of this project
-├── Notebook.ipynb                      <- Full analysis in Jupyter notebook
+├── Notebook.ipynb                      <- Initial EDA and data cleaning compiled into one Jupyter notebook
+├── Notebook.ipynb                      <- Final analysis in Jupyter notebook
+├────── Adonis                          <- Unpolished notebooks for Adonis, not critical 
+├────── Emiko                           <- Unpolished notebooks for Emiko, not critical
+├────── Julian                          <- Unpolished notebooks for Julian, not critical
 ├── PPTs.pdf                            <- PDF version of project presentation
 ├── Data                                <- Both sourced externally and generated from code
 └── Images (if any)                     <- Both sourced externally and generated from code
