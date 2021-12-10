@@ -4,15 +4,14 @@
 
 ## Objectives 
 
-The largest global vaccination campaign in history is currently underway. In the United States, mass vaccinations began in December 2020, and about 60% have completed their second doses as of November 2021. For fast and effective vaccination rollout, the Centers for Disease Control and Prevention (CDC) closely monitors and predicts vaccination coverage across the country. In this project, to contribute to the CDC’s vaccination monitoring efforts, we develop a machine learning model to predict an individual’s vaccination uptake for the time of the pandemic as well as for regular seasonal flu using vaccination status survey data on 2009 N1H1 flu and seasonal flu.
+The objectives of this project are twofold. (1) Develop two prediction models to predict individual vaccination uptake’s for the seasonal flu vaccine and H1N1 flu vaccine using vaccination status survey data on the 2009 N1H1 flu and seasonal flu.
+ (2) Given the developed prediction model, analyze socio-economic features strongly related to a person’s vaccination decision. 
 
-Our model will help the CDC to quickly assess who will be vaccinated and who will not across different socio-economic and demographic groups. Our model also includes data on a person’s knowledge, concerns, and beliefs about the vaccine and the flu; thus, our model will address major challenges for improving vaccination uptake. Finally, from our model and data analysis, we will suggest policy recommendations for which communities to target in a vaccination campaign, and how to address people’s concerns about vaccinations. Our analysis and recommendations will support CDC’s vaccination effort to combat the current pandemic and flu season. 
+## Business Problems
 
-## Vaccination Challenges
+[For FY 2022, the US government has approved the most significant budget increase for the CDC in nearly two decades](https://www.cdc.gov/media/releases/2021/s0528-fiscal-year-2022.html). The budget is targeted to fund priority public health issues in the US, including improving readiness for future public health crises and reducing health disparities in racial and ethnic minority communities. 
 
-It is widely reported that vaccination rates are disproportionately low among African Americans, Hispanics, and other ethnic minority groups. There are many reasons for these differences, including access to health insurance, physical access to a vaccination facility, knowledge gaps, attitudes towards vaccination, or lack of trust in health providers. Our model includes various variables representing major barriers to vaccination uptakes, including a person’s beliefs about vaccines, knowledge of influenza and vaccines, and other socioeconomic factors, and aims to provide evidence-based policy recommendations to CDC on what the major barriers to vaccination are and how to address these gaps. 
-
-**Insert Box plot here**
+To support their policymaking, the CDC has tasked us to create a vaccination prediction model to prepare for a future pandemic crisis. The CDC also asked us to provide policy recommendations based on the model. Remarkably, they are interested in which racial and ethnic communities to target, the critical factors for their vaccination decisions, and how to address barriers. 
 
 ## Data
 
@@ -23,9 +22,7 @@ Our dataset is from [DRIVENDATA](https://www.drivendata.org/competitions/66/flu-
 •	**Socioeconomic factors:** Age group, Income group, Education, Race, Sex, Marital status, Employment status, Urban/Rural, Home ownership, Number of people live together\
 •	**Health consideration factors:** High risk group, Doctor's recommendations, Health Insurance 
 
-After clearning, our data includes 35 vaccination features for XXXX individuals
-
-- Add summary stat
+After clearning, our data includes 35 vaccination features. 
 
 
 ## Model and Metrics
