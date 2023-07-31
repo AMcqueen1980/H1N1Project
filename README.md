@@ -33,7 +33,7 @@ After clearning, our data includes 35 vaccination features.
 
 ## Model and Metrics
 
-We ultimately chose to use two seperate models for our two targets. Both are Gradient Boosting Classifier models with parameters optimised via GridSearch, however they each been fit with a different model in mind. 
+We ultimately chose to use two seperate models for our two targets. Both are Gradient Boosting Classifier models with parameters optimised via GridSearch, however they have each been fit with a different model in mind. 
 
 The metrics for our final H1N1 model is:
 
