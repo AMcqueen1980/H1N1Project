@@ -24,7 +24,7 @@ To support their policymaking, the CDC has tasked us to create a vaccination pre
 Our dataset is from [DRIVENDATA](https://www.drivendata.org/competitions/66/flu-shot-learning/). This is a subsample of [the National 2009 H1N1 Flu Survey (NHFS)](https://www.cdc.gov/nchs/nis/data_files_h1n1.htm), which the CDC conducted from 2009 to 2010. Data cover the H1N1 and seasonal flu vaccination status of adults as well as flu-related behaviors, opinions about flu vaccine safety and effectiveness, and socioeconomic status as follows. 
 
 •	**Knowledge and belief on influenza and vaccine:** Questions on concern, knowledge and opinion on H1N1/seasonal influenza and vaccine  
-•	**Attitude toward influenza preventive measures:** Behavioral questions on avoidance of large gathering, wearing face mask, washing hands, touching face   
+•	**Attitude toward influenza preventive measures:** Behavioral questions on avoidance of large gatherings, wearing face masks, washing hands, and touching face   
 •	**Socioeconomic factors:** Age group, Income group, Education, Race, Sex, Marital status, Employment status, Urban/Rural, Home ownership, Number of people live together\
 •	**Health consideration factors:** High risk group, Doctor's recommendations, Health Insurance 
 
